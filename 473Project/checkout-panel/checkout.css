@@ -184,7 +184,7 @@ input[type='password']:focus {
 }
 
 /* Buttons */
-.btn {
+.button {
   font-size: 16px;
   width: 163px;
   height: 48px;
@@ -195,14 +195,30 @@ input[type='password']:focus {
   border-radius: 23px;
 }
 
-.back-btn {
+#prevBtn {
   color: black;
   background: #fff;
+  font-size: 16px;
+  width: 163px;
+  height: 48px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 23px;
 }
 
-.next-btn {
+#nextBtn {
   color: #fff;
   background: black;
+  font-size: 16px;
+  width: 163px;
+  height: 48px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 23px;
 }
 
 .btn:focus {
